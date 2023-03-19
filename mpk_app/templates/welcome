@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Strona Główna</title>
+  </head>
+  <body>
+    <h1>Witaj na stronie głównej!</h1>
+    <p>Wybierz jedną z opcji:</p>
+    <form method="get" action="/cities">
+      <button type="submit">Lista miast</button>
+    </form>
+    <form method="get" action="/public_transport/city/wroclaw/routes">
+      <button type="submit">Lista przejazdów</button>
+    </form>
+  </body>
+</html>
